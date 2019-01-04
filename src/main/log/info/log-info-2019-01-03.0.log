@@ -1,0 +1,911 @@
+2019-01-03 14:04:22.522 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 3048 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:04:22.576 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:04:22.704 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:04:22.705 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:04:26.995 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:04:27.021 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:04:27.040 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:04:27.040 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:04:27.052 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:04:27.221 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:04:27.221 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4516 ms
+2019-01-03 14:04:28.432 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:04:29.365 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:04:29.601 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:04:30.969 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:04:35.936 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:04:36.000 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:04:36.016 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:04:36.041 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:04:36.048 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 16.016 seconds (JVM running for 18.555)
+2019-01-03 14:04:36.110 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:04:36.110 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:04:36.135 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 25 ms
+2019-01-03 14:05:35.331 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 3932 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:05:35.336 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:05:35.391 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:05:35.392 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:05:37.683 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:05:37.702 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:05:37.717 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:05:37.717 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:05:37.727 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:05:37.956 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:05:37.956 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2564 ms
+2019-01-03 14:05:38.630 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:05:38.812 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:05:38.955 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:05:40.424 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:05:41.513 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:05:41.574 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:05:41.590 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:05:41.610 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:05:41.615 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 8.448 seconds (JVM running for 10.777)
+2019-01-03 14:05:50.751 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:05:50.753 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:05:50.791 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 37 ms
+2019-01-03 14:10:41.288 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 5664 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:10:41.356 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:10:41.430 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:10:41.438 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:10:44.242 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:10:44.267 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:10:44.281 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:10:44.282 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:10:44.293 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:10:44.537 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:10:44.538 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3100 ms
+2019-01-03 14:10:45.612 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:10:45.849 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:10:46.001 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:10:47.066 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:10:48.643 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:10:48.748 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:10:48.764 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:10:48.814 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:10:48.819 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 9.571 seconds (JVM running for 13.636)
+2019-01-03 14:10:57.438 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:10:57.439 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:10:57.454 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-01-03 14:17:25.928 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 9572 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:17:25.933 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:17:25.995 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:17:25.995 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:17:28.355 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:17:28.371 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:17:28.383 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:17:28.384 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:17:28.393 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:17:28.521 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:17:28.521 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2526 ms
+2019-01-03 14:17:29.243 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:17:29.451 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:17:29.616 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:17:30.251 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:17:31.398 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:17:31.468 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:17:31.481 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:17:31.502 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:17:31.509 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.109 seconds (JVM running for 10.714)
+2019-01-03 14:17:31.778 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:17:31.778 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:17:31.793 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-01-03 14:19:15.784 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 10876 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:19:15.789 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:19:15.864 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:19:15.871 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:19:18.923 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:19:18.939 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:19:18.951 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:19:18.952 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:19:18.961 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:19:19.148 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:19:19.148 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3276 ms
+2019-01-03 14:19:19.856 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:19:20.077 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:19:20.220 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:19:20.894 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:19:22.019 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:19:22.076 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:19:22.090 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:19:22.116 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:19:22.121 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.697 seconds (JVM running for 10.109)
+2019-01-03 14:19:25.970 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:19:25.971 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:19:25.987 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-01-03 14:21:55.270 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 9484 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:21:55.276 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:21:55.353 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:21:55.360 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:21:58.082 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:21:58.102 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:21:58.125 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:21:58.126 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:21:58.135 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:21:58.406 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:21:58.407 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3047 ms
+2019-01-03 14:21:59.149 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:21:59.457 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:21:59.624 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:22:00.207 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:22:01.300 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:22:01.354 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:22:01.369 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:22:01.388 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:22:01.394 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.736 seconds (JVM running for 10.322)
+2019-01-03 14:22:08.308 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:22:08.308 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:22:08.324 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-01-03 14:23:27.998 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 10948 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:23:28.003 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:23:28.064 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:23:28.065 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:23:30.283 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:23:30.301 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:23:30.320 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:23:30.321 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:23:30.330 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:23:30.500 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:23:30.501 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2436 ms
+2019-01-03 14:23:31.162 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:23:31.337 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:23:31.470 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:23:32.253 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:23:33.345 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:23:33.400 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:23:33.413 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:23:33.432 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:23:33.436 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 6.406 seconds (JVM running for 9.801)
+2019-01-03 14:23:45.497 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:23:45.497 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:23:45.514 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-01-03 14:24:22.523 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 10512 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:24:22.824 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:24:23.074 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:24:23.074 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:24:26.179 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:24:26.202 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:24:26.223 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:24:26.223 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:24:26.234 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:24:26.499 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:24:26.499 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3425 ms
+2019-01-03 14:24:27.433 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:24:27.649 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:24:27.786 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:24:28.432 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:24:29.664 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:24:29.718 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:24:29.733 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:24:29.752 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:24:29.756 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 8.688 seconds (JVM running for 10.852)
+2019-01-03 14:24:30.679 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:24:30.680 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:24:30.726 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 45 ms
+2019-01-03 14:29:52.956 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 10468 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:29:52.961 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:29:53.016 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:29:53.017 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:29:55.391 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:29:55.406 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:29:55.420 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:29:55.420 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:29:55.429 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:29:55.621 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:29:55.622 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2604 ms
+2019-01-03 14:29:56.309 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:29:56.502 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:29:56.639 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:29:57.852 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:29:58.978 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:29:59.040 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:29:59.056 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:29:59.079 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:29:59.084 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.743 seconds (JVM running for 10.137)
+2019-01-03 14:30:06.703 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:30:06.703 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:30:06.752 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 48 ms
+2019-01-03 14:32:00.445 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 7796 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:32:00.450 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:32:00.503 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:32:00.503 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:32:02.597 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:32:02.613 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:32:02.626 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:32:02.627 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:32:02.635 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:32:02.807 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:32:02.808 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2305 ms
+2019-01-03 14:32:03.494 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:32:03.723 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:32:03.857 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:32:05.361 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:32:06.610 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:32:06.661 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:32:06.674 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:32:06.694 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:32:06.698 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 8.107 seconds (JVM running for 10.86)
+2019-01-03 14:32:07.128 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:32:07.129 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:32:07.147 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2019-01-03 14:32:38.346 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 9988 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 14:32:38.350 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 14:32:38.434 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 14:32:38.434 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 14:32:41.561 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 14:32:41.577 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:32:41.590 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 14:32:41.590 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 14:32:41.599 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 14:32:41.878 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 14:32:41.879 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3445 ms
+2019-01-03 14:32:42.470 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 14:32:42.662 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 14:32:42.790 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 14:32:43.321 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 14:32:44.409 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 14:32:44.470 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 14:32:44.519 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 14:32:44.539 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 14:32:44.544 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.531 seconds (JVM running for 10.013)
+2019-01-03 14:33:08.840 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 14:33:08.841 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 14:33:08.883 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 30 ms
+2019-01-03 15:07:00.563 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 4720 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 15:07:00.567 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 15:07:00.628 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 15:07:00.629 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 15:07:02.786 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 15:07:02.807 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 15:07:02.826 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 15:07:02.826 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 15:07:02.836 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 15:07:03.023 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 15:07:03.024 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2395 ms
+2019-01-03 15:07:03.641 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 15:07:03.815 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 15:07:03.946 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 15:07:04.579 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 15:07:05.613 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 15:07:05.665 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 15:07:05.678 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 15:07:05.696 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 15:07:05.701 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 6.867 seconds (JVM running for 9.17)
+2019-01-03 15:07:17.504 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 15:07:17.505 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 15:07:17.519 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-01-03 15:49:24.679 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 7000 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 15:49:24.686 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 15:49:24.774 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 15:49:24.775 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 15:49:27.930 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 15:49:27.964 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 15:49:27.988 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 15:49:27.989 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 15:49:28.000 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 15:49:28.276 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 15:49:28.283 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3507 ms
+2019-01-03 15:49:28.914 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 15:49:30.221 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 15:49:30.820 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 15:49:31.128 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 15:49:31.974 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3837c53d, org.springframework.security.web.context.SecurityContextPersistenceFilter@68c5664d, org.springframework.security.web.header.HeaderWriterFilter@4b03f376, org.springframework.security.web.csrf.CsrfFilter@3e582bb3, org.springframework.security.web.authentication.logout.LogoutFilter@1069d969, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6fc44586, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@22c79a08, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1501b386, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@38be2e5c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5751c2ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6feb2d9d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5980047a, org.springframework.security.web.session.SessionManagementFilter@535e0959, org.springframework.security.web.access.ExceptionTranslationFilter@32c9169, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43e4e092]
+2019-01-03 15:49:32.741 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 15:49:32.806 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 15:49:32.820 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 15:49:32.849 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 15:49:32.869 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 10.323 seconds (JVM running for 13.56)
+2019-01-03 15:50:46.022 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 15:50:46.022 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 15:50:46.045 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2019-01-03 15:52:07.948 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 6896 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 15:52:07.954 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 15:52:08.008 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 15:52:08.008 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 15:52:10.302 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 15:52:10.324 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 15:52:10.336 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 15:52:10.337 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 15:52:10.346 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 15:52:10.723 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 15:52:10.724 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2715 ms
+2019-01-03 15:52:11.048 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 15:52:11.843 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 15:52:11.850 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-01-03 15:52:11.873 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-03 15:52:34.599 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 7868 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 15:52:34.603 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 15:52:34.656 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 15:52:34.656 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 15:52:36.924 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 15:52:36.940 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 15:52:36.954 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 15:52:36.954 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 15:52:36.963 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 15:52:37.500 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 15:52:37.500 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2843 ms
+2019-01-03 15:52:37.738 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 15:52:38.531 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 15:52:38.537 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-01-03 15:52:38.570 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-03 15:55:24.711 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 6704 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 15:55:24.715 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 15:55:24.814 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 15:55:24.814 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 15:55:27.321 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 15:55:27.342 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 15:55:27.358 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 15:55:27.358 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 15:55:27.370 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 15:55:27.755 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 15:55:27.755 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2941 ms
+2019-01-03 15:55:28.054 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 15:55:28.816 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 15:55:29.258 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 15:55:29.458 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 15:55:29.986 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@656d978d, org.springframework.security.web.context.SecurityContextPersistenceFilter@2dcd4656, org.springframework.security.web.header.HeaderWriterFilter@a45c38d, org.springframework.security.web.csrf.CsrfFilter@15569c7c, org.springframework.security.web.authentication.logout.LogoutFilter@582aba76, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5509c8a3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4ca1a2fc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@774e4ad7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@59136f69, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a0ef124, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50602a38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7515a551, org.springframework.security.web.session.SessionManagementFilter@6367dca9, org.springframework.security.web.access.ExceptionTranslationFilter@7b108018, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@fff9d1a]
+2019-01-03 15:55:30.718 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 15:55:30.777 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 15:55:30.791 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 15:55:30.812 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 15:55:30.818 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.986 seconds (JVM running for 10.485)
+2019-01-03 15:55:55.604 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 15:55:55.604 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 15:55:55.625 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2019-01-03 16:00:29.078 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 3952 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 16:00:29.081 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 16:00:29.140 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 16:00:29.141 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 16:00:31.906 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 16:00:31.922 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:00:31.937 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 16:00:31.938 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 16:00:31.950 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 16:00:32.311 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 16:00:32.312 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3171 ms
+2019-01-03 16:00:32.624 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 16:00:33.375 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 16:00:33.740 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 16:00:33.917 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 16:00:34.501 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4dc62501, org.springframework.security.web.context.SecurityContextPersistenceFilter@3fc9e0e5, org.springframework.security.web.header.HeaderWriterFilter@3331c3b6, org.springframework.security.web.csrf.CsrfFilter@a53c1b1, org.springframework.security.web.authentication.logout.LogoutFilter@433c325f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5d2bba45, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@909e84c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46610878, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1fe466f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5fb537a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5a962168, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@8f93cbd, org.springframework.security.web.session.SessionManagementFilter@2f1669c9, org.springframework.security.web.access.ExceptionTranslationFilter@442f7b4b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dce5f44]
+2019-01-03 16:00:35.081 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 16:00:35.134 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:00:35.146 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 16:00:35.164 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 16:00:35.172 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.515 seconds (JVM running for 10.939)
+2019-01-03 16:00:49.608 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 16:00:49.609 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 16:00:49.631 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2019-01-03 16:18:55.430 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 11948 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 16:18:55.433 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 16:18:55.617 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 16:18:55.617 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 16:19:00.265 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 16:19:00.315 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:19:00.343 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 16:19:00.344 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 16:19:00.354 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 16:19:01.032 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 16:19:01.032 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5413 ms
+2019-01-03 16:19:01.743 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 16:19:04.781 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 16:19:05.516 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 16:19:05.883 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 16:19:06.832 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@233ca02c, org.springframework.security.web.context.SecurityContextPersistenceFilter@228f8d31, org.springframework.security.web.header.HeaderWriterFilter@7a9002f5, org.springframework.security.web.authentication.logout.LogoutFilter@6231bc0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2045d70, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1c136428, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7de748f9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53be19ae, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49aa5762, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f5ec925, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a847b, org.springframework.security.web.session.SessionManagementFilter@575c856a, org.springframework.security.web.access.ExceptionTranslationFilter@e785a99, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41ef4047]
+2019-01-03 16:19:07.644 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 16:19:07.727 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:19:07.749 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 16:19:07.770 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 16:19:07.776 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 13.439 seconds (JVM running for 18.851)
+2019-01-03 16:19:14.825 [http-nio-8080-exec-9] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 16:19:14.825 [http-nio-8080-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 16:19:14.844 [http-nio-8080-exec-9] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2019-01-03 16:22:29.405 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 8196 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 16:22:29.409 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 16:22:29.500 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 16:22:29.501 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 16:22:32.971 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 16:22:32.992 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:22:33.012 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 16:22:33.013 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 16:22:33.022 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 16:22:33.268 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 16:22:33.269 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3768 ms
+2019-01-03 16:22:33.990 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 16:22:34.731 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 16:22:35.152 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 16:22:35.403 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 16:22:36.030 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7227f61e, org.springframework.security.web.context.SecurityContextPersistenceFilter@28602e56, org.springframework.security.web.header.HeaderWriterFilter@a0f87ff, org.springframework.security.web.authentication.logout.LogoutFilter@39400d2c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@313a2ced, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5e8d9f7a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@63b060e1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@486fce33, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33dfe481, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1aba706c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b0560e, org.springframework.security.web.session.SessionManagementFilter@8e9ca2e, org.springframework.security.web.access.ExceptionTranslationFilter@b89b0c2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3044f716]
+2019-01-03 16:22:36.723 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 16:22:36.788 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:22:36.800 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 16:22:36.840 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 16:22:36.847 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 9.15 seconds (JVM running for 15.61)
+2019-01-03 16:22:56.210 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 16:22:56.210 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 16:22:56.268 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 57 ms
+2019-01-03 16:23:23.357 [Thread-22] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-03 16:23:23.364 [Thread-22] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-01-03 16:23:24.931 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 8196 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 16:23:24.932 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 16:23:26.272 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 16:23:26.273 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:23:26.274 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 16:23:26.275 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 16:23:26.546 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 16:23:26.547 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1610 ms
+2019-01-03 16:23:26.834 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 16:23:27.136 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2019-01-03 16:23:27.522 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 16:23:27.664 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 16:23:28.153 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75feaafe, org.springframework.security.web.context.SecurityContextPersistenceFilter@3eff3c71, org.springframework.security.web.header.HeaderWriterFilter@7ce3c2ff, org.springframework.security.web.authentication.logout.LogoutFilter@387b1e33, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19e12480, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7fa0b902, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@207efb67, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1057a0e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3393e361, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51853bd6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@302b0ecc, org.springframework.security.web.session.SessionManagementFilter@2bd0bb67, org.springframework.security.web.access.ExceptionTranslationFilter@79ae89f6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76046a2c]
+2019-01-03 16:23:29.623 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 16:23:29.680 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:23:29.682 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 16:23:29.688 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 16:23:29.835 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 5.03 seconds (JVM running for 68.597)
+2019-01-03 16:23:29.840 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-01-03 16:23:36.018 [http-nio-8080-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 16:23:36.048 [http-nio-8080-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 16:23:36.056 [http-nio-8080-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-01-03 16:26:23.286 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 11024 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 16:26:23.290 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 16:26:23.361 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 16:26:23.361 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 16:26:26.253 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 16:26:26.272 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:26:26.287 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 16:26:26.288 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 16:26:26.299 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 16:26:26.779 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 16:26:26.780 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3419 ms
+2019-01-03 16:26:27.071 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 16:26:28.007 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 16:26:28.398 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 16:26:28.737 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 16:26:29.513 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@604897bc, org.springframework.security.web.context.SecurityContextPersistenceFilter@303bdd21, org.springframework.security.web.header.HeaderWriterFilter@4d1e7e1f, org.springframework.security.web.authentication.logout.LogoutFilter@3d4d4d3, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6580bef8, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3d71785a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7e25f1df, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6398bf22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e3b69cf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4f04f2b0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@781d1872, org.springframework.security.web.session.SessionManagementFilter@2326470a, org.springframework.security.web.access.ExceptionTranslationFilter@71cc1242, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7dbc3490]
+2019-01-03 16:26:30.384 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 16:26:30.468 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:26:30.484 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 16:26:30.508 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 16:26:30.537 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 9.623 seconds (JVM running for 14.347)
+2019-01-03 16:26:35.325 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 16:26:35.326 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 16:26:35.373 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 46 ms
+2019-01-03 16:29:33.181 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 4984 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 16:29:33.185 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 16:29:33.240 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 16:29:33.240 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 16:29:35.654 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 16:29:35.702 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:29:35.715 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 16:29:35.715 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 16:29:35.764 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 16:29:36.110 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 16:29:36.111 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2871 ms
+2019-01-03 16:29:36.373 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 16:29:37.225 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 16:29:37.590 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 16:29:37.839 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 16:29:38.681 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67ede294, org.springframework.security.web.context.SecurityContextPersistenceFilter@56466ca7, org.springframework.security.web.header.HeaderWriterFilter@5ee9b6c6, org.springframework.security.web.authentication.logout.LogoutFilter@5ddbdfb2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a63f9f5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@d595ad5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@67a6106, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@78e76054, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1627f53, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6515ff78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@158658fa, org.springframework.security.web.session.SessionManagementFilter@99a4b48, org.springframework.security.web.access.ExceptionTranslationFilter@6378a03a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b1716c4]
+2019-01-03 16:29:39.625 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 16:29:39.693 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:29:39.708 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 16:29:39.780 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 16:29:39.841 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 8.745 seconds (JVM running for 11.753)
+2019-01-03 16:29:54.473 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 16:29:54.473 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 16:29:54.509 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 36 ms
+2019-01-03 16:43:06.254 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 2168 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 16:43:06.258 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 16:43:06.334 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 16:43:06.341 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 16:43:11.032 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 16:43:11.065 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:43:11.083 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 16:43:11.084 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 16:43:11.104 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 16:43:11.624 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 16:43:11.625 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 5284 ms
+2019-01-03 16:43:12.018 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 16:43:13.336 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 16:43:13.882 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 16:43:14.219 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 16:43:14.991 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66498c36, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b7ca640, org.springframework.security.web.header.HeaderWriterFilter@1691d047, org.springframework.security.web.authentication.logout.LogoutFilter@6ae1687c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@523f90ba, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@92ef679, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4199a649, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6325ce07, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fc55bc6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39cbd091, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6ea264a5, org.springframework.security.web.session.SessionManagementFilter@d6e23b5, org.springframework.security.web.access.ExceptionTranslationFilter@228edf6d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e476ed5]
+2019-01-03 16:43:15.774 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 16:43:16.225 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 16:43:16.240 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 16:43:16.262 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 16:43:16.267 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 12.351 seconds (JVM running for 14.974)
+2019-01-03 16:43:18.118 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 16:43:18.119 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 16:43:18.135 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-01-03 17:00:15.039 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 8572 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:00:15.044 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:00:15.154 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:00:15.155 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:00:17.924 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:00:17.944 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:00:17.957 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:00:17.958 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:00:17.968 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:00:18.361 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:00:18.362 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3206 ms
+2019-01-03 17:00:18.613 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:00:19.423 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:00:19.779 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:00:20.013 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:00:20.703 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6eaca4cc, org.springframework.security.web.context.SecurityContextPersistenceFilter@4050aff8, org.springframework.security.web.header.HeaderWriterFilter@31d5c864, org.springframework.security.web.authentication.logout.LogoutFilter@493e8a19, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@20acd169, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@27d16a0e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7c098be, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@34f9b5dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bf15f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d32c648, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@675bf5d6, org.springframework.security.web.session.SessionManagementFilter@19d3b02a, org.springframework.security.web.access.ExceptionTranslationFilter@72b686e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65633940]
+2019-01-03 17:00:21.487 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:00:21.543 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:00:21.556 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:00:21.591 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:00:21.596 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 8.49 seconds (JVM running for 10.738)
+2019-01-03 17:00:29.745 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:00:29.745 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:00:29.769 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 23 ms
+2019-01-03 17:13:25.862 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 14268 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:13:25.866 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:13:26.013 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:13:26.014 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:13:29.559 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:13:29.591 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:13:29.605 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:13:29.606 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:13:29.615 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:13:29.852 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:13:29.853 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3839 ms
+2019-01-03 17:13:30.282 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:13:31.272 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:13:31.632 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:13:31.829 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:13:32.381 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@721e990e, org.springframework.security.web.context.SecurityContextPersistenceFilter@214a6c94, org.springframework.security.web.header.HeaderWriterFilter@21eb1e51, org.springframework.security.web.authentication.logout.LogoutFilter@5850b4f5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@22ce5dc7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@777b69df, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@80ac74f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@557f0d0a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a7399a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d2d5010, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d0d00f2, org.springframework.security.web.session.SessionManagementFilter@3bb8dc60, org.springframework.security.web.access.ExceptionTranslationFilter@27af69ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1348cacc]
+2019-01-03 17:13:33.087 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:13:33.142 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:13:33.155 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:13:33.175 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:13:33.181 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 9.045 seconds (JVM running for 11.605)
+2019-01-03 17:13:45.982 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:13:45.983 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:13:45.998 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2019-01-03 17:19:18.293 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 11436 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:19:18.305 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:19:18.385 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:19:18.385 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:19:21.145 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:19:21.166 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:19:21.200 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:19:21.201 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:19:21.209 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:19:21.485 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:19:21.485 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3099 ms
+2019-01-03 17:19:21.785 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:19:22.791 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:19:23.196 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:19:23.389 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:19:24.080 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@133e5906, org.springframework.security.web.context.SecurityContextPersistenceFilter@1895f1de, org.springframework.security.web.header.HeaderWriterFilter@cdb8375, org.springframework.security.web.authentication.logout.LogoutFilter@34f47739, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@249533ea, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@395f761b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@50986ef5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6a63f9f5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60c3709a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d8268e9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29c8aff8, org.springframework.security.web.session.SessionManagementFilter@c494e64, org.springframework.security.web.access.ExceptionTranslationFilter@406a4971, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14a2074e]
+2019-01-03 17:19:24.758 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:19:24.814 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:19:24.829 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:19:24.849 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:19:24.855 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 8.392 seconds (JVM running for 11.203)
+2019-01-03 17:19:33.161 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:19:33.161 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:19:33.177 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-01-03 17:20:32.694 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 13088 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:20:32.703 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:20:33.232 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:20:33.232 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:20:35.969 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:20:35.989 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:20:36.007 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:20:36.008 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:20:36.018 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:20:36.429 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:20:36.430 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3198 ms
+2019-01-03 17:20:36.707 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:20:37.545 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:20:37.950 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:20:38.156 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:20:38.787 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@478ed3b1, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e0b0c1c, org.springframework.security.web.header.HeaderWriterFilter@638ba08c, org.springframework.security.web.authentication.logout.LogoutFilter@3da2388c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@38159826, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@512ca62d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@16e27d30, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4b51285f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e7d9614, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@482c93b3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bece060, org.springframework.security.web.session.SessionManagementFilter@ff8c48c, org.springframework.security.web.access.ExceptionTranslationFilter@3bec2c0d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@451d3896]
+2019-01-03 17:20:39.507 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:20:39.561 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:20:39.575 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:20:39.606 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:20:39.627 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.838 seconds (JVM running for 10.389)
+2019-01-03 17:20:43.530 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:20:43.530 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:20:43.547 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2019-01-03 17:21:43.408 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 13940 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:21:43.412 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:21:43.523 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:21:43.530 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:21:46.840 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:21:46.857 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:21:46.903 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:21:46.904 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:21:46.913 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:21:47.372 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:21:47.372 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3841 ms
+2019-01-03 17:21:47.790 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:21:48.587 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:21:48.958 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:21:49.145 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:21:49.738 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b1203ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@159c10e6, org.springframework.security.web.header.HeaderWriterFilter@5af46d24, org.springframework.security.web.authentication.logout.LogoutFilter@50db9036, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68d3706a, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3785a0c9, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@9d322ec, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4ee63af8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@d072826, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e8e9236, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@244061f, org.springframework.security.web.session.SessionManagementFilter@49afb54, org.springframework.security.web.access.ExceptionTranslationFilter@5608b7f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@43af8f2d]
+2019-01-03 17:21:50.443 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:21:50.502 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:21:50.515 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:21:50.534 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:21:50.541 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 9.06 seconds (JVM running for 11.653)
+2019-01-03 17:22:00.618 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:22:00.618 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:22:00.635 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-01-03 17:23:20.419 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 11908 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:23:20.424 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:23:20.491 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:23:20.499 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:23:23.625 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:23:23.661 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:23:23.674 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:23:23.674 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:23:23.683 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:23:24.035 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:23:24.035 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3536 ms
+2019-01-03 17:23:24.284 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:23:25.081 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:23:25.494 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:23:25.728 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:23:26.488 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@168a283d, org.springframework.security.web.context.SecurityContextPersistenceFilter@59b954f0, org.springframework.security.web.header.HeaderWriterFilter@18a9ab5a, org.springframework.security.web.authentication.logout.LogoutFilter@4050aff8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@b114f7f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4ab56813, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1d24a8c2, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@155e059d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b97ea24, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@72a67049, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ffb5efc, org.springframework.security.web.session.SessionManagementFilter@4480d1fb, org.springframework.security.web.access.ExceptionTranslationFilter@705e23cd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7071669e]
+2019-01-03 17:23:27.319 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:23:27.386 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:23:27.404 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:23:27.423 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:23:27.428 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 8.212 seconds (JVM running for 11.014)
+2019-01-03 17:23:31.013 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:23:31.016 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:23:31.034 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-01-03 17:25:58.751 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 1524 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:25:58.754 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:25:58.806 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:25:58.806 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:26:01.084 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:26:01.099 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:26:01.117 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:26:01.117 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:26:01.128 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:26:01.486 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:26:01.486 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2680 ms
+2019-01-03 17:26:01.745 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:26:02.516 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:26:02.889 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:26:03.106 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:26:03.724 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b713bc3, org.springframework.security.web.context.SecurityContextPersistenceFilter@68564e02, org.springframework.security.web.header.HeaderWriterFilter@1641404d, org.springframework.security.web.authentication.logout.LogoutFilter@7a3e031d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@61c98175, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@36d7a960, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4b665264, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6d42eb8d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f1749dd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3dc5536e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35df0580, org.springframework.security.web.session.SessionManagementFilter@1a5bb47, org.springframework.security.web.access.ExceptionTranslationFilter@285fb63e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3b529dfa]
+2019-01-03 17:26:04.507 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:26:04.583 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:26:04.596 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:26:04.617 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:26:04.626 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.339 seconds (JVM running for 10.529)
+2019-01-03 17:26:07.253 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:26:07.254 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:26:07.274 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2019-01-03 17:27:33.142 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 13720 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:27:33.146 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:27:33.268 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:27:33.269 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:27:35.455 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:27:35.473 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:27:35.488 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:27:35.489 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:27:35.498 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:27:35.833 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:27:35.833 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2562 ms
+2019-01-03 17:27:36.085 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:27:36.848 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:27:37.232 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:27:37.410 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:27:37.982 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30660a44, org.springframework.security.web.context.SecurityContextPersistenceFilter@5beb0b3b, org.springframework.security.web.header.HeaderWriterFilter@4863f340, org.springframework.security.web.authentication.logout.LogoutFilter@53d44e13, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@191e8e82, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@eef423c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@40e52356, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@741ecc04, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f88942a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44a57987, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56154c23, org.springframework.security.web.session.SessionManagementFilter@64be5adc, org.springframework.security.web.access.ExceptionTranslationFilter@6c87b3fb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@55e93125]
+2019-01-03 17:27:38.682 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:27:38.738 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:27:38.751 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:27:38.770 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:27:38.776 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 6.94 seconds (JVM running for 10.061)
+2019-01-03 17:27:54.487 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:27:54.488 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:27:54.505 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-01-03 17:29:21.425 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 13988 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:29:21.428 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:29:21.504 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:29:21.504 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:29:23.847 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:29:23.881 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:29:23.894 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:29:23.894 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:29:23.903 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:29:24.042 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:29:24.042 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2537 ms
+2019-01-03 17:29:24.568 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:29:25.418 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:29:25.843 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:29:26.071 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:29:26.832 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46924059, org.springframework.security.web.context.SecurityContextPersistenceFilter@3632440c, org.springframework.security.web.header.HeaderWriterFilter@6ebd4980, org.springframework.security.web.authentication.logout.LogoutFilter@3fc2e00b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7e23b9c6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@71c507fd, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@60a0eb6b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4b65c6fd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c51d59, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e692fb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18cfc117, org.springframework.security.web.session.SessionManagementFilter@1bbfebb4, org.springframework.security.web.access.ExceptionTranslationFilter@27cf409a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@24268dc0]
+2019-01-03 17:29:27.558 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:29:27.615 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:29:27.630 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:29:27.658 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:29:27.663 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 6.975 seconds (JVM running for 11.775)
+2019-01-03 17:29:27.945 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:29:27.945 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:29:27.962 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+2019-01-03 17:31:21.268 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 13820 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:31:21.272 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:31:21.506 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:31:21.507 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:31:33.451 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 13168 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:31:33.455 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:31:33.561 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:31:33.562 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:31:37.213 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:31:37.236 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:31:37.260 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:31:37.260 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:31:37.270 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:31:37.682 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:31:37.682 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4120 ms
+2019-01-03 17:31:37.929 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:31:38.679 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:31:39.040 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:31:39.207 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:31:39.762 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cdb8375, org.springframework.security.web.context.SecurityContextPersistenceFilter@6406acd8, org.springframework.security.web.header.HeaderWriterFilter@1b5405b8, org.springframework.security.web.authentication.logout.LogoutFilter@6d0e4341, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@57ee090f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7e8c5250, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6378a03a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@67eb92f2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e22d600, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b2033f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c494e64, org.springframework.security.web.session.SessionManagementFilter@74eebd71, org.springframework.security.web.access.ExceptionTranslationFilter@544d4915, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19a0be3d]
+2019-01-03 17:31:40.484 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:31:40.538 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:31:40.552 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:31:40.571 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:31:40.576 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.89 seconds (JVM running for 9.955)
+2019-01-03 17:31:44.446 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:31:44.447 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:31:44.462 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2019-01-03 17:33:55.020 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 11332 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:33:55.024 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:33:55.152 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:33:55.153 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:33:57.615 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:33:57.650 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:33:57.663 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:33:57.663 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:33:57.671 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:33:57.982 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:33:57.982 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2829 ms
+2019-01-03 17:33:58.262 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:33:59.058 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:33:59.392 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:33:59.589 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:34:00.202 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58a5a707, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a4797e0, org.springframework.security.web.header.HeaderWriterFilter@51e48b6, org.springframework.security.web.authentication.logout.LogoutFilter@9b00410, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ed27f08, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@648b6550, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1e1fe257, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2ab3956b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@416b81f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@104b231d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18783ca5, org.springframework.security.web.session.SessionManagementFilter@772a0bf7, org.springframework.security.web.access.ExceptionTranslationFilter@2d5d0ddf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@59bf5765]
+2019-01-03 17:34:00.940 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:34:01.000 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:34:01.013 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:34:01.032 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:34:01.037 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.256 seconds (JVM running for 10.179)
+2019-01-03 17:34:09.078 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:34:09.081 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:34:09.103 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2019-01-03 17:35:26.393 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 14228 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:35:26.399 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:35:26.554 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:35:26.563 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:35:29.118 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:35:29.133 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:35:29.145 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:35:29.145 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:35:29.153 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:35:29.491 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:35:29.491 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2927 ms
+2019-01-03 17:35:29.751 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:35:30.505 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:35:30.839 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:35:31.077 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:35:31.620 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11e04416, org.springframework.security.web.context.SecurityContextPersistenceFilter@38b2674f, org.springframework.security.web.header.HeaderWriterFilter@54d52a1, org.springframework.security.web.authentication.logout.LogoutFilter@b5acf60, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64921495, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c3fa3c2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@687d3626, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@42e97aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f67ca4a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66a5d95f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7bb18353, org.springframework.security.web.session.SessionManagementFilter@6195774d, org.springframework.security.web.access.ExceptionTranslationFilter@7149c5a1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@435e2c5a]
+2019-01-03 17:35:32.358 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:35:32.413 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:35:32.426 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:35:32.445 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:35:32.451 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 8.128 seconds (JVM running for 10.464)
+2019-01-03 17:35:37.729 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:35:37.730 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:35:37.752 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2019-01-03 17:37:04.154 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 11060 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:37:04.158 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:37:04.205 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:37:04.205 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:37:06.371 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:37:06.393 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:37:06.407 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:37:06.407 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:37:06.416 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:37:06.735 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:37:06.736 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2530 ms
+2019-01-03 17:37:07.078 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:37:07.868 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:37:08.249 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:37:08.475 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:37:09.015 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19d120ba, org.springframework.security.web.context.SecurityContextPersistenceFilter@582da78b, org.springframework.security.web.header.HeaderWriterFilter@58ea2973, org.springframework.security.web.authentication.logout.LogoutFilter@4b3baaba, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2942d081, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@76606475, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7c75ada4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@51cf36e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@266648da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3bc4432e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@33c88b61, org.springframework.security.web.session.SessionManagementFilter@18225ec8, org.springframework.security.web.access.ExceptionTranslationFilter@679a5877, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16ce9d7a]
+2019-01-03 17:37:09.709 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:37:09.764 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:37:09.778 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:37:09.797 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:37:09.803 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 6.783 seconds (JVM running for 9.797)
+2019-01-03 17:37:13.631 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:37:13.632 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:37:13.653 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2019-01-03 17:38:46.463 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 12344 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:38:46.468 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:38:46.697 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:38:46.697 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:38:51.252 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:38:51.268 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:38:51.281 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:38:51.282 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:38:51.290 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:38:51.626 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:38:51.627 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4928 ms
+2019-01-03 17:38:51.900 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:38:52.727 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:38:53.090 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:38:53.313 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:38:53.882 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ccf62aa, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e3e5965, org.springframework.security.web.header.HeaderWriterFilter@7210198f, org.springframework.security.web.authentication.logout.LogoutFilter@220e059a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7802171c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1f6935cf, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7a58528e, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e38b6cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5f963245, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@a381356, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7dec0ce5, org.springframework.security.web.session.SessionManagementFilter@19e557ff, org.springframework.security.web.access.ExceptionTranslationFilter@77d70f4d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@688dc7ba]
+2019-01-03 17:38:54.576 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:38:54.647 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:38:54.660 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:38:54.690 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:38:54.700 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 9.789 seconds (JVM running for 12.88)
+2019-01-03 17:39:06.378 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 14280 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:39:06.383 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:39:06.436 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:39:06.436 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:39:08.796 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:39:08.817 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:39:08.830 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:39:08.831 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:39:08.840 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:39:09.202 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:39:09.202 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2765 ms
+2019-01-03 17:39:09.437 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:39:10.166 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:39:10.559 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:39:10.742 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:39:11.315 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e0268aa, org.springframework.security.web.context.SecurityContextPersistenceFilter@7250cbb5, org.springframework.security.web.header.HeaderWriterFilter@23d484ea, org.springframework.security.web.authentication.logout.LogoutFilter@3c8b06de, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a760491, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2322a7da, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6ab95ef9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7e9e39be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4346983e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@550e829f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45cbad8e, org.springframework.security.web.session.SessionManagementFilter@23b40246, org.springframework.security.web.access.ExceptionTranslationFilter@24e63584, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e6af0a3]
+2019-01-03 17:39:12.021 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:39:12.085 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:39:12.098 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:39:12.118 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:39:12.123 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 7.479 seconds (JVM running for 9.524)
+2019-01-03 17:39:25.196 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:39:25.197 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:39:25.250 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 53 ms
+2019-01-03 17:40:55.825 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Starting KuangjiaApplication on WIN-90BVOJIBBLG with PID 14740 (F:\kuangjia\target\classes started by Administrator in F:\kuangjia)
+2019-01-03 17:40:55.830 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - The following profiles are active: dev
+2019-01-03 17:40:55.906 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-01-03 17:40:55.906 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-01-03 17:40:58.481 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2019-01-03 17:40:58.498 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:40:58.511 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-01-03 17:40:58.512 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-03 17:40:58.521 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;MySQL Utilities\;F:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_191\bin;F:\apache-maven-3.3.9\bin\;E:\Git\cmd;.]
+2019-01-03 17:40:58.865 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-01-03 17:40:58.865 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2958 ms
+2019-01-03 17:40:59.140 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-01-03 17:40:59.980 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-01-03 17:41:00.351 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-03 17:41:00.634 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-01-03 17:41:01.520 [restartedMain] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6cf57ac9, org.springframework.security.web.context.SecurityContextPersistenceFilter@28c5d48d, org.springframework.security.web.header.HeaderWriterFilter@49e07b36, org.springframework.security.web.authentication.logout.LogoutFilter@35fcaec6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4ed4b799, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@60a28752, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1f15ad99, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@53781e57, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58a5a707, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d11570, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36fd0fee, org.springframework.security.web.session.SessionManagementFilter@47f4950a, org.springframework.security.web.access.ExceptionTranslationFilter@33137a2c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c60ceaf]
+2019-01-03 17:41:02.665 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-01-03 17:41:02.861 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2019-01-03 17:41:02.878 [restartedMain] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-01-03 17:41:02.901 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-03 17:41:02.920 [restartedMain] INFO  com.example.kuangjia.KuangjiaApplication - Started KuangjiaApplication in 10.156 seconds (JVM running for 13.252)
+2019-01-03 17:41:09.764 [http-nio-8080-exec-4] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-03 17:41:09.766 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-01-03 17:41:09.788 [http-nio-8080-exec-4] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 22 ms
